@@ -1,0 +1,19 @@
+@import '~bootstrap/scss/bootstrap';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
+@import url('https://fonts.googleapis.com/css?family=RobotoC');
+
+* {
+    font-family: 'RobotoC', Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    margin-bottom: 0;
+}

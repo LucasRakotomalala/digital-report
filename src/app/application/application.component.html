@@ -1,0 +1,134 @@
+<div class="app-application mx-4">
+  <h1 class="mb-3">
+    <span>De quoi s'agit-t-il ?</span>
+  </h1>
+
+  <section>
+    <div class="container m-0">
+      <div class="row">
+        <div class="col-lg-8">
+          <h2 class="mb-3">
+            <span>Le projet</span>
+          </h2>
+
+          <div>
+            Ce jeu ludique est gratuit et disponible sur smartphone (iOS et
+            Android). Il propose à l’utilisateur de découvrir, sur le terrain, 8
+            parcs naturels départementaux et leurs patrimoines (naturel,
+            géologique, historique).
+            <br />
+            Cette expérience digitale éducative et environnementale propose un
+            fond scientifique « vulgarisé » et contextualisé. Les 8 parcs qui
+            seront répertoriés à terme dans l’inventaire du jeu sont les
+            suivants :
+
+            <ul>
+              <li>Vaugrenier - disponible depuis le 23 octobre 2021</li>
+              <li>Grande corniche - À partir des vacances de Pâques</li>
+              <li>Esterel - Semestre 2 - 2022</li>
+              <li>Vinaigrier - Semestre 1 2022</li>
+              <li>Vinaigrier - Semestre 1 2022</li>
+              <li>Valmasque - Semestre 1 - 2022</li>
+              <li>Cros de casté - Semestre 2 - 2022</li>
+              <li>Rives du loup - Semestre 1 - 2023</li>
+              <li>Pointe de l’aiguille - Semestre 1 – 2023</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <img
+            class="d-block mx-auto"
+            src="/assets/homme.png"
+            alt="Homme"
+            height="400"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div>
+      <ngb-carousel
+        [interval]="5000"
+        [pauseOnHover]="true"
+        [pauseOnFocus]="true"
+        [showNavigationArrows]="false"
+        [showNavigationIndicators]="false"
+      >
+        <ng-template ngbSlide *ngFor="let img of images">
+          <!-- <div class="carousel-caption">
+                <h3>My slide {{i + 1}} title</h3>
+              </div> -->
+          <div>
+            <img
+              class="d-block mx-auto carousel-image"
+              [src]="img"
+              alt="Image du projet"
+            />
+          </div>
+        </ng-template>
+      </ngb-carousel>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="mb-3">
+      <span>Pour qui ?</span>
+    </h2>
+
+    <div>
+      Toute personne à proximité d’un parc, disposant d’un smartphone sera
+      susceptible de télécharger et d’utiliser l’application :
+
+      <ul>
+        <li>Les enfants à partir de 8 ans</li>
+        <li>Les familles : parents, grands-parents avec des jeunes enfants</li>
+        <li>Les jeunes adultes, casual gamers</li>
+        <li>
+          Les personnes connectées qui apprécient les parcs Départementaux, les
+          sorties natures, l’apprentissage en nature, les randonnées
+        </li>
+        <li>
+          Les professeurs, associations, établissement d’accueil…. souhaitant
+          mettre en place un projet pédagogique autour de la découverte et la
+          protection de notre environnement naturel
+        </li>
+        <li>
+          Les contenus et activités ont été pensés pour permettre une
+          utilisation et une compréhension en autonomie d’enfants niveau collège
+        </li>
+        <li>
+          Pour les enfants plus jeunes, l’utilisation de l’application devra
+          être accompagnée par un médiateur (adulte, animateur…) afin
+          d’expliquer les notions scientifiques et le gameplay des activités
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="mb-3">
+      <span>Un enjeu environnemental</span>
+    </h2>
+
+    <div>
+      Les enjeux de l’application sont d’apporter aux utilisateurs une plus
+      grande éducation et conscience environnementale ainsi qu’une meilleure
+      connaissance du territoire et de ses spécificités :
+
+      <ul>
+        <li>Sensibiliser au respect de l’environnement</li>
+        <li>Acquérir des connaissances environnementales de manière ludique</li>
+        <li>
+          Donner envie aux usagers de se rendre dans les Parc naturels
+          départementaux
+        </li>
+        <li>
+          Promouvoir les espaces naturels départementaux et leurs particularités
+        </li>
+      </ul>
+    </div>
+  </section>
+</div>

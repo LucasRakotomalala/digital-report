@@ -1,0 +1,19 @@
+.app-footer {
+    margin-top: auto;
+    min-height: 50px;
+    background-color: rgb(137, 164, 77);
+    
+    h3 {
+        text-align: center;
+
+        i {
+            color: black;
+            vertical-align: middle;
+            
+            &:hover {
+                cursor: pointer;
+                color: white;
+            }
+        }
+    }
+}
