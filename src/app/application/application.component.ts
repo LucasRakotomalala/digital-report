@@ -13,10 +13,10 @@ export class ApplicationComponent implements OnInit {
 
   ngOnInit(): void {
     this.images = [
-      '/assets/exploparcs-visuel01.jpeg',
-      '/assets/exploparcs-visuel02.jpeg',
-      '/assets/exploparcs-visuel03.jpeg',
-      '/assets/exploparcs-visuel04.jpeg'
+      'assets/exploparcs-visuel01.jpeg',
+      'assets/exploparcs-visuel02.jpeg',
+      'assets/exploparcs-visuel03.jpeg',
+      'assets/exploparcs-visuel04.jpeg'
     ];
   }
 

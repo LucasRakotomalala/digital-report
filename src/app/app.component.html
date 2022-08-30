@@ -1,5 +1,5 @@
 <div class="app-root pb-3">
-  <img class="banner" src="/assets/banner.jpeg" alt="Banner" />
+  <img class="banner" src="assets/banner.jpeg" alt="Banner" />
   <ul ngbNav class="nav nav-tabs nav-fill" [activeId]="route.url">
     <li *ngFor="let link of links" [ngbNavItem]="link.url">
       <a ngbNavLink routerLink="{{link.url}}">{{ link.title }}</a>
