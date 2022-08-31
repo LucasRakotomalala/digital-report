@@ -1,4 +1,6 @@
 .app-root {
+  font-family: 'CurseCasualRegular',;
+
   .banner {
     display: block;
     margin-left: auto;
@@ -11,7 +13,6 @@
   .nav {
     a {
       font-size: x-large;
-      // font-weight: 100;
     }
 
     .nav-link {
@@ -28,7 +29,6 @@
       &.active {
         color: black;
         filter: brightness(0.85);
-        // background-color: red;
       }
     }
   }

@@ -1,6 +1,6 @@
 {
   "name": "digital-report",
-  "author": "Lucas Rakotomalala & Florian Gagey",
+  "author": "Florian Gagey",
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
@@ -19,7 +19,7 @@
     "@angular/platform-browser": "14.2.0",
     "@angular/platform-browser-dynamic": "14.2.0",
     "@angular/router": "14.2.0",
-    "@fortawesome/fontawesome-free": "6.1.2",
+    "@fortawesome/fontawesome-free": "6.2.0",
     "@ng-bootstrap/ng-bootstrap": "13.0.0",
     "@popperjs/core": "2.11.6",
     "bootstrap": "5.2.0",

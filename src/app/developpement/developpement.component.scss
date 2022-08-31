@@ -1,6 +1,4 @@
-.app-developpement {
-    text-align: justify;
-    
+.app-developpement {    
     span {
       padding: 0 5px 7px 0px;
     }
@@ -25,6 +23,10 @@
           content: "🔎 ";
         }
       }
+
+      div {
+        text-align: justify;
+      }  
     }
   }
   
